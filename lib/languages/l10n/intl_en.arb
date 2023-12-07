@@ -1,0 +1,15 @@
+{
+    "intro": "Hello there!",
+    "welcomeToApp": "Welcome to the app",
+    "foodSpecial": "Specialty dishes",
+    "location": "Location",
+    "infomation": "Basic information",
+    "phone": "Phone number",
+    "address": "Address",
+    "timeOpen": "Opening hours",
+    "listReview": "Review list",
+    "detailShop": "Detailed Information",
+    "event": "Events - Festivals - Culture",
+    "image": "Image",
+    "place": "Place"
+}

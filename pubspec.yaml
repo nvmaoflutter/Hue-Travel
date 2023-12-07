@@ -1,0 +1,87 @@
+name: vietnamfood
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.1+4
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  flutter_localizations:
+    sdk: flutter  
+
+  flutter_svg: ^2.0.9
+  cupertino_icons: ^1.0.2
+  flutter_screenutil: ^5.7.0
+  intl:
+  cached_network_image: ^3.2.0
+  carousel_slider: ^4.2.1
+  google_maps_flutter: ^2.5.0
+  geolocator: ^9.0.2
+  get_storage: ^2.1.1
+
+  firebase_core: ^2.15.0
+  cloud_firestore: ^4.8.4
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/logo.png
+  android: true
+  ios: true
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"  
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.0.5
+  #flutter pub run flutter_native_splash:create
+  flutter_launcher_icons: "^0.9.2"
+  #flutter pub run flutter_launcher_icons:main
+
+
+flutter_intl:
+  enabled: true
+  class_name: S
+  main_locale: vi
+  output_dir: lib/languages/generated
+  arb_dir: lib/languages/l10n
+
+
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: SF-Pro
+      fonts:
+        - asset: assets/fonts/BeVietnamPro-Black.ttf
+        - asset: assets/fonts/BeVietnamPro-BlackItalic.ttf
+        - asset: assets/fonts/BeVietnamPro-Bold.ttf
+        - asset: assets/fonts/BeVietnamPro-BoldItalic.ttf
+        - asset: assets/fonts/BeVietnamPro-ExtraBold.ttf
+        - asset: assets/fonts/BeVietnamPro-ExtraBoldItalic.ttf
+        - asset: assets/fonts/BeVietnamPro-ExtraLight.ttf
+        - asset: assets/fonts/BeVietnamPro-ExtraLightItalic.ttf
+        - asset: assets/fonts/BeVietnamPro-Italic.ttf
+        - asset: assets/fonts/BeVietnamPro-Light.ttf
+        - asset: assets/fonts/BeVietnamPro-LightItalic.ttf
+        - asset: assets/fonts/BeVietnamPro-Medium.ttf
+        - asset: assets/fonts/BeVietnamPro-MediumItalic.ttf
+        - asset: assets/fonts/BeVietnamPro-Regular.ttf
+        - asset: assets/fonts/BeVietnamPro-SemiBold.ttf
+        - asset: assets/fonts/BeVietnamPro-SemiBoldItalic.ttf
+        - asset: assets/fonts/BeVietnamPro-Thin.ttf
+        - asset: assets/fonts/BeVietnamPro-ThinItalic.ttf

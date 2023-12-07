@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1034927354353",
+    "project_id": "agora-1d867",
+    "storage_bucket": "agora-1d867.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034927354353:android:346ecf99b205da79b6d450",
+        "android_client_info": {
+          "package_name": "com.tony.vietnamfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034927354353-lvsj0eq0pci2ilgtg6t6h2ut8jvjea89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL7ka6wz6K-SlT4KFxl5Y4itE7didu5LQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034927354353-lvsj0eq0pci2ilgtg6t6h2ut8jvjea89.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1034927354353-0uvp25vjfkdd86bgolj9l1ob202do15o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hiennv.testing"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
